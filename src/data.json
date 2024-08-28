@@ -1,0 +1,158 @@
+{
+  "set1": [
+    {
+      "id": 1,
+      "firstName": "Ahmet",
+      "lastName": "Yılmaz",
+      "email": "ahmet.yilmaz@example.com",
+      "age": 30,
+      "city": "İstanbul"
+    },
+    {
+      "id": 2,
+      "firstName": "Ayşe",
+      "lastName": "Kara",
+      "email": "ayse.kara@example.com",
+      "age": 25,
+      "city": "Ankara"
+    },
+    {
+      "id": 3,
+      "firstName": "Mehmet",
+      "lastName": "Demir",
+      "email": "mehmet.demir@example.com",
+      "age": 35,
+      "city": "İzmir"
+    }
+  ],
+  "set2": [
+    {
+      "id": 4,
+      "firstName": "Fatma",
+      "lastName": "Çelik",
+      "email": "fatma.celik@example.com",
+      "age": 28,
+      "city": "Antalya"
+    },
+    {
+      "id": 5,
+      "firstName": "Ali",
+      "lastName": "Çetin",
+      "email": "ali.cetin@example.com",
+      "age": 40,
+      "city": "Bursa"
+    },
+    {
+      "id": 6,
+      "firstName": "Elif",
+      "lastName": "Aydın",
+      "email": "elif.aydin@example.com",
+      "age": 22,
+      "city": "Konya"
+    }
+  ],
+  "set3": [
+    {
+      "id": 7,
+      "firstName": "Can",
+      "lastName": "Yalçın",
+      "email": "can.yalcin@example.com",
+      "age": 32,
+      "city": "Adana"
+    },
+    {
+      "id": 8,
+      "firstName": "Derya",
+      "lastName": "Kurt",
+      "email": "derya.kurt@example.com",
+      "age": 29,
+      "city": "Mersin"
+    },
+    {
+      "id": 9,
+      "firstName": "Okan",
+      "lastName": "Ağca",
+      "email": "okan.agca@example.com",
+      "age": 27,
+      "city": "Samsun"
+    }
+  ],
+  "set4": [
+    {
+      "id": 10,
+      "firstName": "Zeynep",
+      "lastName": "Yüksel",
+      "email": "zeynep.yuksel@example.com",
+      "age": 24,
+      "city": "Trabzon"
+    },
+    {
+      "id": 11,
+      "firstName": "Emre",
+      "lastName": "Karaca",
+      "email": "emre.karaca@example.com",
+      "age": 31,
+      "city": "Gaziantep"
+    },
+    {
+      "id": 12,
+      "firstName": "Seda",
+      "lastName": "Aydın",
+      "email": "seda.aydin@example.com",
+      "age": 26,
+      "city": "Eskişehir"
+    }
+  ],
+  "set5": [
+    {
+      "id": 13,
+      "firstName": "Burak",
+      "lastName": "Erdem",
+      "email": "burak.erdem@example.com",
+      "age": 30,
+      "city": "Aydın"
+    },
+    {
+      "id": 14,
+      "firstName": "Merve",
+      "lastName": "Acar",
+      "email": "merve.acar@example.com",
+      "age": 27,
+      "city": "Rize"
+    },
+    {
+      "id": 15,
+      "firstName": "Barış",
+      "lastName": "Koç",
+      "email": "baris.koc@example.com",
+      "age": 34,
+      "city": "Kayseri"
+    }
+  ],
+  "set6": [
+    {
+      "id": 16,
+      "firstName": "Elif",
+      "lastName": "Şahin",
+      "email": "elif.sahin@example.com",
+      "age": 22,
+      "city": "Diyarbakır"
+    },
+    {
+      "id": 17,
+      "firstName": "Mustafa",
+      "lastName": "Öztürk",
+      "email": "mustafa.ozturk@example.com",
+      "age": 40,
+      "city": "Kocaeli"
+    },
+    {
+      "id": 18,
+      "firstName": "Gül",
+      "lastName": "Kaya",
+      "email": "gul.kaya@example.com",
+      "age": 29,
+      "city": "Edirne"
+    }
+  ]
+}

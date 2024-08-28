@@ -1,0 +1,28 @@
+/* Header.css */
+.custom-header {
+  background-color: red; /* Arka plan rengini kırmızıya ayarlayın */
+  color: white; /* Yazı rengini beyaz yapın */
+  padding: 1rem; /* İç boşluk ekleyin */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Hafif bir gölge ekleyin */
+  display: flex; /* Flexbox kullanarak hizalama */
+  align-items: center; /* Dikey olarak ortala */
+  justify-content: space-between; /* Menü ikonu, başlık ve arama ikonu arasında boşluk bırak */
+}
+
+.menu-icon {
+  margin-right: auto; /* Menü ikonunu sola dayamak için */
+}
+
+.title {
+  flex-grow: 1; /* Başlığın ortalanması için alan bırak */
+  text-align: center; /* Başlığı yatay olarak ortala */
+}
+
+.search-icon {
+  margin-left: auto; /* Arama ikonunu sağa dayamak için */
+}
+
+.pi {
+  font-size: 1.5rem; /* PrimeIcons boyutunu ayarlayın */
+  cursor: pointer; /* İkonların üzerine gelindiğinde işaretçiyi değiştirin */
+}
