@@ -1,6 +1,5 @@
 import React from "react";
-import Button from "./Button"; // Button bileşenini import edin
-import "./ButtonList.css"; // Özel stil dosyanız
+import Button from "./Button";
 
 const ButtonList = ({ onButtonClick }) => {
   return (

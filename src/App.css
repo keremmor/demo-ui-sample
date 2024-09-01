@@ -1,3 +1,182 @@
-.App {
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header.css */
+.custom-header {
+  background-color: #007bff;
+  color: white;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0 0 8px 8px;
+}
+
+.menu-icon {
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  flex-grow: 1;
   text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.search-icon {
+  margin-left: auto;
+}
+
+.pi {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.menu-icon-image {
+  width: 50px;
+  height: 50px;
+}
+
+.table-container {
+  position: relative;
+  padding: 2em;
+  margin-top: 2em;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 10px;
+}
+
+.data-table th,
+.data-table td {
+  border: none;
+  padding: 1rem;
+  text-align: left;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.data-table th {
+  background-color: #f4f4f4;
+  color: #333;
+  font-weight: bold;
+  border-bottom: 2px solid #ddd;
+}
+
+.global-filter-container {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.global-filter-container input {
+  margin-bottom: 20px;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.table-container .p-datatable {
+  margin-top: 50px;
+}
+
+/* ButtonList.css */
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+/* Button.css */
+.color-button {
+  padding: 0.5rem 1rem;
+  border: 2px solid;
+  color: currentColor;
+  background-color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  margin: 0.2rem;
+  font-weight: bold;
+}
+
+.color-button.red {
+  border-color: red;
+  color: red;
+}
+
+.color-button.blue {
+  border-color: blue;
+  color: blue;
+}
+
+.color-button.green {
+  border-color: green;
+  color: green;
+}
+
+.color-button.orange {
+  border-color: orange;
+  color: orange;
+}
+
+.color-button.gray {
+  border-color: gray;
+  color: gray;
+}
+
+.color-button.brown {
+  border-color: brown;
+  color: brown;
+}
+
+.color-button:hover {
+  background-color: var(--button-bg-color, currentColor);
+  color: var(--button-text-color, white);
+  border-color: var(--button-border-color, currentColor);
+  font-weight: bold;
+}
+
+.color-button.red:hover {
+  --button-bg-color: red;
+  --button-border-color: red;
+}
+
+.color-button.blue:hover {
+  --button-bg-color: blue;
+  --button-border-color: blue;
+}
+
+.color-button.green:hover {
+  --button-bg-color: green;
+  --button-border-color: green;
+}
+
+.color-button.orange:hover {
+  --button-bg-color: orange;
+  --button-border-color: orange;
+}
+
+.color-button.gray:hover {
+  --button-bg-color: gray;
+  --button-border-color: gray;
+}
+
+.color-button.brown:hover {
+  --button-bg-color: brown;
+  --button-border-color: brown;
 }

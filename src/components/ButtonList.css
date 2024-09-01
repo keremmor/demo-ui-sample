@@ -1,7 +1,0 @@
-/* ButtonList.css */
-.button-container {
-  display: flex;
-  justify-content: flex-end; /* Butonları sağa dayamak için */
-  padding: 1rem;
-  gap: 0.5rem; /* Butonlar arasındaki boşluk */
-}

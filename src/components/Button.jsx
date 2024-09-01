@@ -1,5 +1,4 @@
 import React from "react";
-import "./Button.css"; // Özel stil dosyanız
 
 const Button = ({ color, label, rounded, onClick }) => {
   return (
